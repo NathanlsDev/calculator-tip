@@ -9,7 +9,9 @@
 }
 
 body{
-  background-color: $bg-color;  
+  background-color: $bg-color;
+  font-family: $font-robotoSlab;
+  max-height: 100vh;
 }
 
 input::-webkit-outer-spin-button,
