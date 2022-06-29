@@ -1,0 +1,8 @@
+@import '../abstract/variables';
+
+.persons{
+  margin-top: 30px;
+  h3{
+    @include textDescription;
+  }
+}
