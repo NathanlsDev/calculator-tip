@@ -8,6 +8,8 @@
 
 body {
   background-color: #c4e4e7;
+  font-family: "Roboto Slab", serif;
+  max-height: 100vh;
 }
 
 input::-webkit-outer-spin-button,
@@ -44,6 +46,8 @@ input::-webkit-inner-spin-button {
   margin-top: 100px;
 }
 .title h1 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
   color: #3b6062;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
@@ -57,7 +61,7 @@ input::-webkit-inner-spin-button {
   padding: 2rem;
   border-radius: 24px;
   box-shadow: 1px 1px 6px 1px #66B5AA;
-  margin: 50px auto;
+  margin: 50px auto 0 auto;
 }
 
 .container__left {
@@ -66,7 +70,9 @@ input::-webkit-inner-spin-button {
 
 .container__right {
   width: 380px;
-  background-color: blue;
+  background-color: #00474b;
+  border-radius: 15px;
+  padding: 2rem;
 }
 
 .insertion__text h3 {
@@ -84,6 +90,9 @@ input::-webkit-inner-spin-button {
   height: 50px;
   border-radius: 15px;
   margin-top: 10px;
+}
+.insertion__values:hover {
+  border: 2px solid #22c5ac;
 }
 .insertion__values p {
   font-size: 1.3rem;
@@ -144,6 +153,9 @@ input::-webkit-inner-spin-button {
   outline: none;
   text-align: right;
 }
+.select .select__btn .select__custom:focus, .select .select__btn .select__custom:hover {
+  border: 2px solid #22c5ac;
+}
 
 .persons {
   margin-top: 30px;
@@ -152,4 +164,59 @@ input::-webkit-inner-spin-button {
   font-size: 1.3rem;
   color: #3b6062;
   font-weight: 500;
+}
+
+.amount {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.amount .amount__text {
+  color: #FFFFFF;
+  font-weight: 500;
+}
+.amount .amount__text p:nth-child(2) {
+  color: #c4e4e7;
+}
+.amount .output {
+  font-size: 3rem;
+  color: #22c5ac;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.total {
+  margin-top: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.total .amount__text {
+  color: #FFFFFF;
+  font-weight: 500;
+}
+.total .amount__text p:nth-child(2) {
+  color: #c4e4e7;
+}
+.total .output {
+  font-size: 3rem;
+  color: #22c5ac;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.reset__btn {
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  background-color: #22c5ac;
+  color: #00474b;
+  font-size: 1.3rem;
+  margin-top: 100px;
+  border-radius: 15px;
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+}
+.reset__btn:hover {
+  background-color: #c4e4e7;
 }/*# sourceMappingURL=style.css.map */
