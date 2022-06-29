@@ -131,6 +131,7 @@ input::-webkit-inner-spin-button {
   font-weight: 500;
 }
 .select .select__btn .btn:hover {
+  color: #00474b;
   background-color: #26C2AD;
 }
 .select .select__btn .select__custom {
