@@ -32,6 +32,9 @@
     .select__custom{
       padding-right: 5%;
       @include inputStyle;
+      &:focus, &:hover{
+        border: 2px solid $num-emphasis-color;
+      }
     }
   }
 }
