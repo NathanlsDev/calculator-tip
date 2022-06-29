@@ -1,0 +1,26 @@
+@import '../abstract/variables';
+@import '../abstract/mixins';
+
+.insertion__text{
+  h3{
+    @include textDescription;
+  }
+}
+.insertion__values{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: $tertiary-color;
+  height: 50px;
+  border-radius: 15px;
+  margin-top: 10px;
+  p{
+    @include textDescription;
+  }
+  input{
+    width: 80%;
+    height: 40px;
+    @include inputStyle;
+  } 
+}
