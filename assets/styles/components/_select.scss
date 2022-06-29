@@ -1,0 +1,36 @@
+@import '../abstract/variables';
+@import '../abstract/variables';
+
+.select{
+  margin-top: 30px;
+  h3{
+    @include textDescription;
+  }
+  .select__btn{
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    .select__percentage{
+      width: 115px;
+      height: 50px;
+      border-radius: 5px;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    .btn{
+      background-color: $primary-color;
+      color: $card-color;
+      font-size: 1.3rem;
+      font-weight: 500;
+      &:hover{
+        background-color: $secondary-color;
+      }
+    }
+    .select__custom{
+      padding-right: 5%;
+      @include inputStyle;
+    }
+  }
+}
