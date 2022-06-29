@@ -1,11 +1,13 @@
 @import 'variables';
 
+//style use in h3
 @mixin textDescription() {
   font-size: 1.3rem;
   color: $title-color;
   font-weight: 500;  
 }
 
+//default style for inputs
 @mixin inputStyle() {
   background-color: $tertiary-color;
   font-weight: 700;
@@ -14,4 +16,31 @@
   outline: none;
   outline: none;
   text-align: right;
+}
+
+//use in divs for amount/person and total/person !!INSIDE 'OUTPUT' MIXIN
+@mixin resultStyle() {
+  font-size: 3rem;
+  color: $num-emphasis-color;
+  font-weight: 700;
+  letter-spacing: 5px; 
+}
+
+//style for output of values by person used in total.scss and amount.scss
+@mixin output() {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  .amount__text{
+    color: $card-color;
+    font-weight: 500;
+    p{
+      &:nth-child(2){
+        color: $bg-color;
+      }      
+    }    
+  }
+  .output{
+    @include resultStyle;
+  }
 }
