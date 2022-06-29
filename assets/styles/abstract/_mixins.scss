@@ -2,16 +2,16 @@
 
 //style use in h3
 @mixin textDescription() {
-  font-size: 1.3rem;
   color: $title-color;
+  font-size: 1.1rem;
   font-weight: 500;  
 }
 
 //default style for inputs
 @mixin inputStyle() {
   background-color: $tertiary-color;
+  color: $primary-color;
   font-weight: 700;
-  color: $primary-color;  
   font-size: 1.3rem;
   outline: none;
   outline: none;
@@ -20,8 +20,8 @@
 
 //use in divs for amount/person and total/person !!INSIDE 'OUTPUT' MIXIN
 @mixin resultStyle() {
-  font-size: 3rem;
   color: $num-emphasis-color;
+  font-size: 3rem;
   font-weight: 700;
   letter-spacing: 5px; 
 }

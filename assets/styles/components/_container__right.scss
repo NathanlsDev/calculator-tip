@@ -1,8 +1,17 @@
 @import '../abstract/variables';
+@import '../abstract/mediaQueries';
 
 .container__right{
-  width: 380px;
   background-color: $primary-color;
   border-radius: 15px;
-  padding: 2rem;
+  margin-top: 30px;
+  padding: 1rem;
+  width: 100%;
+  @include tablet{
+    width: 90%;
+  }
+  @include desktop{
+    max-width: 388px;
+    padding: 2rem;
+  } 
 }

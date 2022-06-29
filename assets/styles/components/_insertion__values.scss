@@ -1,5 +1,6 @@
 @import '../abstract/variables';
 @import '../abstract/mixins';
+@import '../abstract/mediaQueries';
 
 .insertion__text{
   h3{
@@ -7,13 +8,13 @@
   }
 }
 .insertion__values{
-  display: flex;
   align-items: center;
+  background-color: $tertiary-color;
+  border-radius: 15px;
+  display: flex;
+  height: 50px;
   justify-content: space-between;
   padding: 10px;
-  background-color: $tertiary-color;
-  height: 50px;
-  border-radius: 15px;
   margin-top: 10px;
   &:hover{
     border: 2px solid $num-emphasis-color;
@@ -22,8 +23,8 @@
     @include textDescription;
   }
   input{
-    width: 80%;
     height: 40px;
+    width: 80%;
     @include inputStyle;
   } 
 }

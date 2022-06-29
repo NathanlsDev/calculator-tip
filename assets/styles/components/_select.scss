@@ -1,5 +1,6 @@
 @import '../abstract/variables';
 @import '../abstract/variables';
+@import '../abstract/mediaQueries';
 
 .select{
   margin-top: 30px;
@@ -7,14 +8,21 @@
     @include textDescription;
   }
   .select__btn{
-    margin-top: 10px;
     display: flex;
     gap: 15px;
+    justify-content: center;
     flex-wrap: wrap;
+    margin-top: 10px;
+    @include phone{
+      justify-content:flex-start;
+    }
     .select__percentage{
-      width: 115px;
-      height: 50px;
       border-radius: 5px;
+      height: 50px;
+      width: 140px;
+      @include desktop{
+        width: 115px;
+      }
       &:hover{
         cursor: pointer;
       }
@@ -25,8 +33,8 @@
       font-size: 1.3rem;
       font-weight: 500;
       &:hover{
-        color: $primary-color;
         background-color: $secondary-color;
+        color: $primary-color;
       }
     }
     .select__custom{
