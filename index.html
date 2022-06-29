@@ -5,36 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tip-Calculator</title>
+    <title>Tip Calculator</title>
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
   </head>
   <body>
-    <h1>
-      Spli<span>tter</span>
-    </h1>
+    <section class="title">
+      <h1>Spli<br>tter</h1>
+    </section>
 
-    <main>
-      <section>
-        <div>
-          <label for="">Bill</label>
-          <input type="number">
-        </div>
-        <div>
-          <button>5%</button>
-          <button>10%</button>
-          <button>15%</button>
-          <button>25%</button>
-          <button>50%</button>
-          <button>Custom</button>          
-        </div>
-        <div>
-          <label for="">Number of People</label>
-          <input type="number">
-        </div>
+    <main class="container">
+      <section class="container__left">
+        <section class="insertion__text">
+          <h3>Bill</h3>
+          <div class="insertion__values">
+            <p>$</p>
+            <input type="number" name="Bill" id="Bill" aria-label="insert the value of your bill">
+          </div>
+        </section>
+
+        <section class="select">
+          <h3>Select Tip %</h3>
+          <div class="select__btn">
+            <button class="select__percentage btn" id="five">5%</button>
+            <button class="select__percentage btn" id="ten">10%</button>
+            <button class="select__percentage btn" id="fifteen">15%</button>
+            <button class="select__percentage btn" id="twentyFive">25%</button>
+            <button class="select__percentage btn" id="fifty">50%</button>
+            <input type="number" name="customValue" class="select__custom select__percentage" id="custom" placeholder="Custom">
+            </input>
+          </div>
+        </section>
+
+        <section class="persons">
+          <h3>Number of People</h3>
+          <div class="insertion__values">
+            🤷‍♂️
+            <input type="number">
+          </div>
+        </section>
       </section>
 
-      <aside>
+      <aside class="container__right">
         <section>          
           <div>
             <p>Tip Amount</p>
