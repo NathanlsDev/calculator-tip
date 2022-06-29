@@ -1,0 +1,8 @@
+@import '../abstract/variables';
+@import '../abstract/mixins';
+
+.total{
+  margin-top: 50px;
+  @include output;
+}
+  

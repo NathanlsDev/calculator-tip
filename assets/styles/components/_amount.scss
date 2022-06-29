@@ -1,0 +1,6 @@
+@import '../abstract/variables';
+@import '../abstract/variables';
+
+.amount{
+  @include output;
+}
