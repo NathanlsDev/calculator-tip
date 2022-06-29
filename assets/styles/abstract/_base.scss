@@ -9,9 +9,21 @@
 }
 
 body{
-  background-color: $bg-color;
-  h1{
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
+  background-color: $bg-color;  
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+}
+
+::placeholder { // for others browsers
+  color: $primary-color;
+  opacity: 1;
+}
+:-ms-input-placeholder { // for IE browser
+  color: $primary-color;
+}
+::-ms-input-placeholder {// for Edge browser
+  color: $primary-color;
 }
