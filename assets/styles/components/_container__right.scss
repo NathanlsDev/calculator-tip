@@ -1,0 +1,8 @@
+@import '../abstract/variables';
+
+.container__right{
+  width: 380px;
+  background-color: $primary-color;
+  border-radius: 15px;
+  padding: 2rem;
+}
