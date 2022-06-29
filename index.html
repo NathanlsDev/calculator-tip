@@ -5,7 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
     <title>Tip Calculator</title>
+    
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
   </head>
@@ -20,7 +28,7 @@
           <h3>Bill</h3>
           <div class="insertion__values">
             <p>$</p>
-            <input type="number" name="Bill" id="Bill" aria-label="insert the value of your bill">
+            <input type="number" name="Bill" id="Bill" aria-label="insert the value of your bill" placeholder="0">
           </div>
         </section>
 
@@ -40,33 +48,34 @@
         <section class="persons">
           <h3>Number of People</h3>
           <div class="insertion__values">
-            🤷‍♂️
-            <input type="number">
+            👀
+            <input type="number" placeholder="0">
           </div>
         </section>
       </section>
 
       <aside class="container__right">
-        <section>          
-          <div>
+        <section class="amount">
+          <div class="amount__text">
             <p>Tip Amount</p>
             <p>/ person</p>
           </div>
-          <div>
-            output
+          <div class="output" id="total1">
+            $0.00
           </div>
         </section>
 
-        <section>
-          <div>
+        <section class="total">
+          <div class="amount__text">
             <p>Total</p>
             <p>/ person</p>
           </div>
-          <div>
-            output 2
+          <div class="output" id="total2">
+            $0.00
           </div>
         </section>        
-        <button>reset</button>
+
+        <button class="reset__btn" id="reset">reset</button>
       </aside>
     </main>
   </body>
