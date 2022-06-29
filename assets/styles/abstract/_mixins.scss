@@ -1,0 +1,17 @@
+@import 'variables';
+
+@mixin textDescription() {
+  font-size: 1.3rem;
+  color: $title-color;
+  font-weight: 500;  
+}
+
+@mixin inputStyle() {
+  background-color: $tertiary-color;
+  font-weight: 700;
+  color: $primary-color;  
+  font-size: 1.3rem;
+  outline: none;
+  outline: none;
+  text-align: right;
+}
