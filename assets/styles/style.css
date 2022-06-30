@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #c4e4e7;
+  background-color: hsl(185deg, 41%, 84%);
   font-family: "Roboto Slab", serif;
   max-height: 100vh;
   min-width: 360px;
@@ -19,26 +19,26 @@ input::-webkit-inner-spin-button {
 }
 
 ::-moz-placeholder {
-  color: #00474b;
+  color: hsl(183deg, 100%, 15%);
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: #00474b;
+  color: hsl(183deg, 100%, 15%);
   opacity: 1;
 }
 
 ::placeholder {
-  color: #00474b;
+  color: hsl(183deg, 100%, 15%);
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: #00474b;
+  color: hsl(183deg, 100%, 15%);
 }
 
 ::-ms-input-placeholder {
-  color: #00474b;
+  color: hsl(183deg, 100%, 15%);
 }
 
 .title {
@@ -59,7 +59,7 @@ input::-webkit-inner-spin-button {
 }
 
 .container {
-  background-color: #FFFFFF;
+  background-color: hsl(0deg, 0%, 100%);
   box-shadow: 1px 1px 6px 1px #66B5AA;
   border-radius: 24px 24px 0 0;
   display: flex;
@@ -99,7 +99,7 @@ input::-webkit-inner-spin-button {
 }
 
 .container__right {
-  background-color: #00474b;
+  background-color: hsl(183deg, 100%, 15%);
   border-radius: 15px;
   margin-top: 30px;
   padding: 1rem;
@@ -145,7 +145,7 @@ input::-webkit-inner-spin-button {
   height: 40px;
   width: 80%;
   background-color: #f3f8fb;
-  color: #00474b;
+  color: hsl(183deg, 100%, 15%);
   font-weight: 700;
   font-size: 1.3rem;
   outline: none;
@@ -187,19 +187,19 @@ input::-webkit-inner-spin-button {
   cursor: pointer;
 }
 .select .select__btn .btn {
-  background-color: #00474b;
-  color: #FFFFFF;
+  background-color: hsl(183deg, 100%, 15%);
+  color: hsl(0deg, 0%, 100%);
   font-size: 1.3rem;
   font-weight: 500;
 }
 .select .select__btn .btn:hover {
-  background-color: #26C2AD;
-  color: #00474b;
+  background-color: hsl(186deg, 14%, 43%);
+  color: hsl(183deg, 100%, 15%);
 }
 .select .select__btn .select__custom {
   padding-right: 5%;
   background-color: #f3f8fb;
-  color: #00474b;
+  color: hsl(183deg, 100%, 15%);
   font-weight: 700;
   font-size: 1.3rem;
   outline: none;
@@ -225,11 +225,11 @@ input::-webkit-inner-spin-button {
   justify-content: space-between;
 }
 .amount .amount__text {
-  color: #FFFFFF;
+  color: hsl(0deg, 0%, 100%);
   font-weight: 500;
 }
 .amount .amount__text p:nth-child(2) {
-  color: #c4e4e7;
+  color: hsl(185deg, 41%, 84%);
 }
 .amount .output {
   color: #22c5ac;
@@ -245,11 +245,11 @@ input::-webkit-inner-spin-button {
   justify-content: space-between;
 }
 .total .amount__text {
-  color: #FFFFFF;
+  color: hsl(0deg, 0%, 100%);
   font-weight: 500;
 }
 .total .amount__text p:nth-child(2) {
-  color: #c4e4e7;
+  color: hsl(185deg, 41%, 84%);
 }
 .total .output {
   color: #22c5ac;
@@ -261,7 +261,7 @@ input::-webkit-inner-spin-button {
 .reset__btn {
   background-color: #22c5ac;
   border-radius: 15px;
-  color: #00474b;
+  color: hsl(183deg, 100%, 15%);
   font-family: "Roboto Mono", monospace;
   font-size: 1.3rem;
   height: 50px;
@@ -271,7 +271,7 @@ input::-webkit-inner-spin-button {
   cursor: pointer;
 }
 .reset__btn:hover {
-  background-color: #c4e4e7;
+  background-color: hsl(185deg, 41%, 84%);
 }
 @media screen and (min-width: 768px) {
   .reset__btn {

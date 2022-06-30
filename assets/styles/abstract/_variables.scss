@@ -1,8 +1,8 @@
 //colors
-$bg-color: #c4e4e7;
-$card-color: #FFFFFF;
-$primary-color: #00474b;
-$secondary-color: #26C2AD;
+$bg-color: hsl(185, 41%, 84%);
+$card-color: hsl(0, 0%, 100%);
+$primary-color: hsl(183, 100%, 15%);
+$secondary-color: hsl(186, 14%, 43%);
 $tertiary-color: #f3f8fb;
 $error-color: #d6a695;
 $border-color: #66B5AA;
@@ -12,3 +12,11 @@ $title-color: #3b6062;
 //fonts
 $font-robotoMono: 'Roboto Mono', monospace;
 $font-robotoSlab: 'Roboto Slab', serif;
+
+//found the real pallet color =/
+// - Very dark cyan: hsl(183, 100%, 15%)
+// - Dark grayish cyan: hsl(186, 14%, 43%)
+// - Grayish cyan: hsl(184, 14%, 56%)
+// - Light grayish cyan: hsl(185, 41%, 84%)
+// - Very light grayish cyan: hsl(189, 41%, 97%)
+// - White: hsl(0, 0%, 100%)
