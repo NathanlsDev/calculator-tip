@@ -54,6 +54,9 @@ input::-webkit-inner-spin-button {
   letter-spacing: 0.5rem;
   text-transform: uppercase;
 }
+.title h1 span {
+  display: block;
+}
 
 .container {
   background-color: #FFFFFF;
