@@ -10,7 +10,7 @@
 
 body{
   background-color: $bg-color;
-  font-family: $font-robotoSlab;
+  font-family: $font-SpaceMono;
   max-height: 100vh;
   min-width: 360px;
 }
@@ -21,12 +21,12 @@ input::-webkit-inner-spin-button {
 }
 
 ::placeholder { // for others browsers
-  color: $primary-color;
+  color: $input-color;
   opacity: 1;
 }
 :-ms-input-placeholder { // for IE browser
-  color: $primary-color;
+  color: $input-color;
 }
 ::-ms-input-placeholder {// for Edge browser
-  color: $primary-color;
+  color: $input-color;
 }
