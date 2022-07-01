@@ -37,7 +37,7 @@ Meu primeiro projeto concluído. E também meu primeiro contato com pré-process
 # clonar repositório
 git clone https://github.com/NathanlsDev/calculator-tip.git
 
-# entrar na pasta do projeto back end
+# entrar na pasta do projeto
 cd calculator-tip
 
 # Pré-requisito para executar o projeto
