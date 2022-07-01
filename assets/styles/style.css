@@ -218,6 +218,11 @@ input::-webkit-inner-spin-button {
   font-size: 1.1rem;
   font-weight: 500;
 }
+.persons .persons__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .amount {
   align-items: center;
@@ -282,4 +287,13 @@ input::-webkit-inner-spin-button {
   .reset__btn {
     margin-top: 100px;
   }
+}
+
+.error {
+  border: 2px solid #d6a695;
+}
+
+.error__txt {
+  color: #d6a695;
+  font-size: 0.8rem;
 }/*# sourceMappingURL=style.css.map */
