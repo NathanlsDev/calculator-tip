@@ -16,5 +16,6 @@ function getInputValue () {
   custom = Number(customValue.value);
   console.log(custom);
 
+  validation(numPerson);
   math(billValue, numPerson, custom);
 }

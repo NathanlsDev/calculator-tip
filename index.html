@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
   </head>
+
   <body>
     <section class="title">
       <h1>Spli<span>tter</span></h1>
@@ -49,8 +50,11 @@
         </section>
 
         <section class="persons">
-          <h3>Number of People</h3>
-          <div class="insertion__values">
+          <div class="persons__text">
+            <h3>Number of People</h3>
+            <p id="txt"></p>
+          </div>
+          <div class="insertion__values" id="error">
             <span class="material-icons">
               person
               </span>
@@ -84,6 +88,7 @@
       </aside>
     </main>
     <script src="assets/js/getInputValue.js"></script>
+    <script src="assets/js/validationIput.js"></script>
     <script src="assets/js/getBtnValue.js"></script>
     <script src="assets/js/math.js"></script>
     <script src="assets/js/output.js"></script>
