@@ -9,6 +9,7 @@ erase.addEventListener('click', () =>{
   person.value = '';
   amountP.textContent = `$0.00`;
   totalP.textContent = `$0.00`;
+  clean()
 });
 
 function clean (){
