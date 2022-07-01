@@ -2,9 +2,9 @@
 window.addEventListener('load', start);
 
 function start () {
-  let sectionTitle = document.createElement('section');
-  document.body.appendChild(sectionTitle);
-  sectionTitle.classList.add('title');
+  let header = document.createElement('header');
+  document.body.appendChild(header);
+  header.classList.add('title');
 
   let h1 = document.createElement('h1');
   sectionTitle.appendChild(h1);
