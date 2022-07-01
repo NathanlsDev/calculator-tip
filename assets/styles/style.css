@@ -8,7 +8,7 @@
 
 body {
   background-color: hsl(185deg, 41%, 84%);
-  font-family: "Roboto Slab", serif;
+  font-family: "Space Mono", monospace;
   max-height: 100vh;
   min-width: 360px;
 }
@@ -19,26 +19,26 @@ input::-webkit-inner-spin-button {
 }
 
 ::-moz-placeholder {
-  color: hsl(183deg, 100%, 15%);
+  color: rgba(90, 111, 112, 0.7058823529);
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: hsl(183deg, 100%, 15%);
+  color: rgba(90, 111, 112, 0.7058823529);
   opacity: 1;
 }
 
 ::placeholder {
-  color: hsl(183deg, 100%, 15%);
+  color: rgba(90, 111, 112, 0.7058823529);
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: hsl(183deg, 100%, 15%);
+  color: rgba(90, 111, 112, 0.7058823529);
 }
 
 ::-ms-input-placeholder {
-  color: hsl(183deg, 100%, 15%);
+  color: rgba(90, 111, 112, 0.7058823529);
 }
 
 .title {
@@ -48,7 +48,7 @@ input::-webkit-inner-spin-button {
 }
 .title h1 {
   color: #3b6062;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Space Mono", monospace;
   font-size: 1.8rem;
   font-weight: 700;
   letter-spacing: 0.5rem;
@@ -193,7 +193,7 @@ input::-webkit-inner-spin-button {
   font-weight: 500;
 }
 .select .select__btn .btn:hover {
-  background-color: hsl(186deg, 14%, 43%);
+  background-color: #26C2AD;
   color: hsl(183deg, 100%, 15%);
 }
 .select .select__btn .select__custom {
@@ -238,9 +238,8 @@ input::-webkit-inner-spin-button {
 }
 .amount .output {
   color: #22c5ac;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  letter-spacing: 5px;
 }
 
 .total {
@@ -258,16 +257,15 @@ input::-webkit-inner-spin-button {
 }
 .total .output {
   color: #22c5ac;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  letter-spacing: 5px;
 }
 
 .reset__btn {
   background-color: #22c5ac;
   border-radius: 15px;
   color: hsl(183deg, 100%, 15%);
-  font-family: "Roboto Mono", monospace;
+  font-family: "Space Mono", monospace;
   font-size: 1.3rem;
   height: 50px;
   margin-top: 50px;
@@ -290,10 +288,10 @@ input::-webkit-inner-spin-button {
 }
 
 .error {
-  border: 2px solid #d6a695;
+  border: 2px solid #df683d;
 }
 
 .error__txt {
-  color: #d6a695;
+  color: #df683d;
   font-size: 0.8rem;
 }/*# sourceMappingURL=style.css.map */
