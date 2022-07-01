@@ -18,6 +18,10 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 ::-moz-placeholder {
   color: rgba(90, 111, 112, 0.7058823529);
   opacity: 1;

@@ -15,11 +15,15 @@ body{
   min-width: 360px;
 }
 
+//remove spinner inner and outer for inputs type number
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
 -webkit-appearance: none;
 }
-
+// remove spinner for mozilla firefox browser
+input[type=number]{
+  -moz-appearance:textfield;  
+}
 ::placeholder { // for others browsers
   color: $input-color;
   opacity: 1;
