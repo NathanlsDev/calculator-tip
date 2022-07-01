@@ -1,0 +1,11 @@
+@import '../abstract/variables';
+
+.error{
+  border: 2px solid $error-color;
+}
+
+.error__txt{
+  color: $error-color;
+  font-size: .8rem;
+}
+
