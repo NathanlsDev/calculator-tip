@@ -14,82 +14,10 @@
     <title>Tip Calculator</title>    
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
-    <!--scripts
-    <script src="assets/js/creatElement.js" defer></script>-->    
+    <!--scripts-->
+    <script src="assets/js/creatElement.js" defer></script>
   </head>
   <body>
-    <header class="title">
-      <h1>Spli<span>tter</span></h1>
-    </header>
 
-    <main class="container">
-      <section class="container__left">
-        <section class="insertion__text">
-          <h3>Bill</h3>
-          <div class="insertion__values">
-            <span class="material-icons">
-              attach_money
-              </span>
-            <input type="number" name="Bill" id="bill" aria-label="insert the value of your bill" placeholder="0">
-          </div>
-        </section>
-        
-        <section class="select">
-          <h3>Select Tip %</h3>
-          <div class="select__btn">
-            <button class="select__percentage btn" id="five">5%</button>
-            <button class="select__percentage btn" id="ten">10%</button>
-            <button class="select__percentage btn" id="fifteen">15%</button>
-            <button class="select__percentage btn" id="twentyFive">25%</button>
-            <button class="select__percentage btn" id="fifty">50%</button>
-            <input type="number" name="customValue" class="select__custom select__percentage" id="customValue" placeholder="Custom" aria-label="Insert a custom percentage">
-          </div>
-        </section>
-
-        <section class="persons">
-          <div class="persons__text">
-            <h3>Number of People</h3>
-            <p id="txt"></p>
-          </div>
-          <div class="insertion__values" id="error">
-            <span class="material-icons">
-              person
-              </span>
-            <input type="number" name="numPerson" id="numPerson" placeholder="0" aria-label="Insert the number of persons">
-          </div>
-        </section>
-      </section>
-
-      <aside class="container__right">
-        <section class="amount">
-          <div class="amount__text">
-            <p>Tip Amount</p>
-            <p>/ person</p>
-          </div>
-          <div class="output" id="total1">
-            $0.00
-          </div>
-        </section>
-
-        <section class="total">
-          <div class="amount__text">
-            <p>Total</p>
-            <p>/ person</p>
-          </div>
-          <div class="output" id="total2">
-            $0.00
-          </div>
-        </section>        
-
-        <button class="reset__btn" name="reset" id="reset" aria-label="Clean information">reset</button>
-      </aside>
-    </main>
-
-    <script src="assets/js/getInputValue.js"></script>
-    <script src="assets/js/validationInput.js"></script>
-    <script src="assets/js/getBtnValue.js"></script>
-    <script src="assets/js/math.js"></script>
-    <script src="assets/js/output.js"></script>
-    <script src="assets/js/reset.js"></script>
   </body>
 </html>

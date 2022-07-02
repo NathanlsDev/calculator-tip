@@ -1,4 +1,3 @@
-/*
 window.addEventListener('load', start);
 
 function start () {
@@ -7,7 +6,7 @@ function start () {
   header.classList.add('title');
 
   let h1 = document.createElement('h1');
-  sectionTitle.appendChild(h1);
+  header.appendChild(h1);
   h1.textContent = `Spli`;
 
   let span = document.createElement('span');
@@ -191,6 +190,28 @@ function start () {
   buttonReset.setAttribute('name','reset');
   buttonReset.setAttribute('aria-label','Clean information');
   buttonReset.textContent = `reset`;
-}
 
-*/
+  let getInput = document.createElement('script');
+  document.body.appendChild(getInput);
+  getInput.setAttribute('src', 'assets/js/getInputValue.js');
+
+  let validationInput = document.createElement('script');
+  document.body.appendChild(validationInput);
+  validationInput.setAttribute('src', 'assets/js/validationInput.js');
+
+  let getBtnValue = document.createElement('script');
+  document.body.appendChild(getBtnValue);
+  getBtnValue.setAttribute('src', 'assets/js/getBtnValue.js');
+
+  let math = document.createElement('script');
+  document.body.appendChild(math);
+  math.setAttribute('src', 'assets/js/math.js');
+
+  let scriptOutput = document.createElement('script');
+  document.body.appendChild(scriptOutput);
+  scriptOutput.setAttribute('src', 'assets/js/output.js');
+
+  let reset = document.createElement('script');
+  document.body.appendChild(reset);
+  reset.setAttribute('src', 'assets/js/reset.js');
+}
