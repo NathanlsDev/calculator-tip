@@ -87,7 +87,7 @@ function start () {
   let button50 = document.createElement('button');
   divBtn.appendChild(button50);
   button50.classList.add('select__percentage', 'btn');
-  button50.setAttribute('id','five');
+  button50.setAttribute('id','fifty');
   button50.textContent = `50%`;
 
   let inputCustom = document.createElement('input');
