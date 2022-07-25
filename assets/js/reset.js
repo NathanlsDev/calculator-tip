@@ -1,4 +1,5 @@
 let erase = document.querySelector('#reset');
+
 erase.addEventListener('click', () =>{
   let bill = document.querySelector('#bill');
   let person = document.querySelector('#numPerson');
