@@ -131,6 +131,7 @@ input[type=number] {
   align-items: center;
   background-color: #f3f8fb;
   border-radius: 15px;
+  border: 2px solid transparent;
   display: flex;
   height: 50px;
   justify-content: space-between;
@@ -201,6 +202,7 @@ input[type=number] {
   color: hsl(183deg, 100%, 15%);
 }
 .select .select__btn .select__custom {
+  border: 2px solid transparent;
   padding-right: 5%;
   background-color: #f3f8fb;
   color: hsl(183deg, 100%, 15%);
